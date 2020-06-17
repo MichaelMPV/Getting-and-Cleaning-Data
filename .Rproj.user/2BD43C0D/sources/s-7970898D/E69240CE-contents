@@ -1,4 +1,5 @@
-library(data.table)
+library("data.table")
+library("codebook")
 fileurl = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 if (!file.exists('./FILE.zip')){
   download.file(fileurl,'./FILE.zip', mode = 'wb')
@@ -55,7 +56,14 @@ names(sub ) <- names_data
 
 
 
+
+
 #5
 
 tidy <- aggregate(sub [,3:81], by = list(activity = sub $activity, subject = sub $subject),FUN = mean)
 write.table(x = tidy, file = "data_convert_tidy.txt", row.names = FALSE)
+ 
+ 
+ 
+  
+ 
