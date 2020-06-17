@@ -1,8 +1,8 @@
-Nombre: Cristhian Paucar Ventura Fecha y hora: 16/06/2020 22:31:00
+Name: Cristhian Paucar Ventura Datetime: 06/16/2020 22:31:00
 
-El análisis de que se hizo para convertir los datos desordenados a datos ordenados esta en el archivo llamado run.analys.R
+The analysis that was done to convert the disordered data to ordered data is in the file called run.analys.R
 
-En este archivo, Scrit R se podrá verificar que inicie la descarga y luego se procederá a hacer la lectura de los documentos además en el Scrit se han etiquetado los puntos con # para poder explicar a continuación
+In this Scrit R file, you can see that it begins by downloading and then proceeds to read the documents. In the Scrit, the points have been labeled with # to explain below
 
-En el Punto # 1 se observa lo siguiente Luego se extrae los campos de los diferentes archivos de donde se necesita obtener los datos para poder ordenarlos para luego fusionar los conjuntos de entrenamiento
-En el Punto # 2 se observa lo siguiente Extrae solo las mediciones de los medios y la desviación estándar para cada medición. En el Punto # 3 se observa lo siguiente Utiliza nombres descriptivos de actividades para nombrar las actividades en el conjunto de datos Esto se hace leyendo las etiquetas del archivo activity_labels.txt En el Punto # 4 se observa lo siguiente Etiqueta etiquetada el conjunto de datos con nombres descriptivos de variables. Reemplazamos los conjuntos de datos con "nombres_datos" En el Punto # 5 se observa lo siguiente Se crea un segundo conjunto de datos ordenado independiente con el promedio de cada variable para cada actividad y cada sujeto. Una ves ordenado se genera con ayuda de la función write.table () el archivo data_convert_tidy.txt
+In Point # 1 the following is observed Then the fields of the different files are extracted from where the data needs to be obtained in order to order them and then merge the training sets
+In Point # 2 the following is observed Extract only the mean and standard deviation measurements for each measurement. In Point # 3 the following is observed Use descriptive names of activities to name the activities in the data set This is done by reading the tags in the file activity_labels.txt In Point # 4 the following is observed: Label the data set appropriately with descriptive variable names. We replace the data sets with "names_data" In Point # 5 the following is observed. A second independent ordered data set is created with the average of each variable for each activity and each subject. Once ordered, the data_convert_tidy.txt file is generated with the help of the write.table () function.
